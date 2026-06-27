@@ -8,8 +8,8 @@ logger = logging.getLogger(__name__)
 class SupabaseClient:
     def __init__(self):
         # Supabase configuration
-        self.url = os.getenv("SUPABASE_URL", "https://wijncpcaksvtkzhgbcaf.supabase.co")
-        self.key = os.getenv("SUPABASE_KEY", "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6Indpam5jcGNha3N2dGt6aGdiY2FmIiwicm9sZSI6ImFub24iLCJpYXQiOjE3Mzg2NjI2NzAsImV4cCI6MjA1NDIzODY3MH0.Tx8Ly8Lk6kdbAVlMGVi77viZZPgxzqToXhkw93fk7yE")
+        self.url = os.getenv("SUPABASE_URL", "https://ifwftdlhqikjydntajvx.supabase.co")
+        self.key = os.getenv("SUPABASE_KEY", "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6Imlmd2Z0ZGxocWlrand5ZG50YWp2eCIsInJvbGUiOiJhbm9uIiwiaWF0IjoxNzQwNjM4NDU4LCJleHAiOjIwNTYyMTQ0NTh9.H2w6_hPj_zUZ1NvWJkqyYT_yGdQH04W1JhZR0NQ3N0")
         
         # Initialize Supabase client
         self.client = None
